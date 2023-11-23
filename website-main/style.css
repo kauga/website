@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.image-logo {
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(4, 4, 157);
+  padding: 2rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.unorder-menu {
+  display: flex;
+  gap: 2.2rem;
+}
+
+
+.list-items, .mainLink {
+  color:  white;
+  font-size: 1.6rem;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+
+.mainLink:hover {
+  color: #e67e22;
+}
+/* mobile navigation */
+.mobile-navigation {
+  display: none;
+  cursor: pointer;
+}
+
+.menuBars {
+  width: 3rem;
+  cursor: pointer;
+}
+
+/* SECTION INTRODUCTION */
+.section-intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem;
+  gap: 3rem;
+}
+
+.heading-one {
+  margin: 1rem;
+  font-size: 3rem;
+  color: #555;
+  text-transform: capitalize;
+  font-weight: 600;
+
+}
+
+.btn--1 {
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 1.2rem;
+  background-color: rgb(61, 61, 229);
+  padding: 1rem;
+  border-radius: 1.2rem;
+  transition: all 0.3s;
+  margin-top: 3rem;
+}
+
+.btn--1:hover {
+  background-color: white;
+  border: solid 2px #333;
+  color: #222;
+  box-shadow:6px 6px 6px 6px  rgba(238, 6, 176, 0.498);
+}
+
+.img-logo {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.text-company {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+}
+
+/*target-section */
+
+.target-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+} 
+
+.heading-tertiary {
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+}
+
+.heading-three {
+  font-size: 1.8rem;
+  margin: 1.2rem 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.currency-div {
+  background-color: rgb(0, 217, 255);
+  padding: 0.8rem 1.5rem;
+  border-radius: 9px;
+}
+.icons-product {
+  width: 7rem;
+  height: 7rem;
+  stroke: #fff;
+  margin-bottom: 1rem;
+}
+
+nav,ul,li {
+  list-style: none;
+  line-height: 1.8;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.parternership-div {
+  background-color: rgb(161, 156, 156);
+  padding: 0.8rem 1.5rem;
+  border-radius: 9px;
+}
+
+.technology-div {
+  background-color: rgba(0, 0, 255, 0.693);
+  padding: 0.8rem 1.5rem;
+  border-radius: 9px;
+}
+
+.sustanability-div {
+  background-color: rgba(137, 43, 226, 0.716);
+  padding: 0.8rem 1.5rem;
+  border-radius: 9px;
+}
+
+/* section information */
+.section-information {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  background-color: rgba(0, 255, 213, 0.066);
+  padding: 6rem;
+}
+
+.text-info {
+  background-color: #fff;
+  color: #222;
+  padding: 1rem 1rem 5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}
+
+.anchor-infor {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: blue;
+  padding: 0.7rem;
+  margin-left: 1.5rem;
+  border-radius: 5px;
+}
+
+/* section-news */
+.heading-news {
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.7rem;
+}
+
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+.new-1 {
+  background-color: rgb(189, 225, 225);
+  padding: 1.3rem;
+}
+
+.news-images {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.text-blue {
+  font-size: .8rem;
+  margin-bottom: 0.7rem;
+  text-align: right;
+  color: rgba(15, 15, 242, 0.856);
+  font-weight: 700;
+}
+.news-heading {
+  font-size: 1.0rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #333;
+  line-height: 1.3;
+}
+
+.news-text {
+  line-height: 1.5;
+  margin-top: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #222;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.news-anchor {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: blue;
+  font-weight: 600;
+}
+.diverse-heading {
+  font-size: 1.6rem;
+}
