@@ -82,3 +82,23 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width:550px) {
+  .heading-one {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .img-logo {
+    width: 100%;
+  }
+
+  .text-info {
+    font-size: 1.1rem;
+  }
+
+  .tex-company {
+    font-size: 1rem;
+  }
+}
