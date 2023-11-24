@@ -7,3 +7,5 @@ mobileEl.addEventListener('click', () => {
   closeEl.classList.remove('hidden');
   console.log(`kauga`);
 })
+
+console.log();
