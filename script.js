@@ -4,8 +4,10 @@ const closeEl = document.querySelector('.times');
 
 mobileEl.addEventListener('click', () => {
   headerEl.classList.add('hidden');
-  closeEl.classList.remove('hidden');
   console.log(`kauga`);
-})
+});
 
-console.log();
+closeEl.addEventListener('click', function() {
+  headerEl.classList.remove('hidden');
+  console.log(`hellow world`);
+})
